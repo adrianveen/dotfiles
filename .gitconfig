@@ -1,0 +1,43 @@
+[user]
+	email = adrian.veen@gmail.com
+	name = Adrian
+	username = adrianveen
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[code]
+	editor = nvim
+[core]
+	ignorecase = false
+[init]
+    defaultBranch = main
+[alias]
+    st = status
+    co = checkout
+    cm = commit -m
+    c  = commit
+    ca = commit -a
+    br = branch
+    brsut = branch --set-upstream-to
+    psu = push --set-upstream origin
+    l = log --oneline --decorate --graph --all
+    ll = log --oneline --decorate --graph --all --branches
+    lo = log --oneline --decorate --graph --all --branches --remotes
+    lt = log --oneline --decorate --graph --all --tags
+    lt1 = log --oneline --decorate --graph --all --tags --branches
+    ls = log --oneline --decorate --graph --all --tags --branches --remotes
+    ltc = log --no-walk --tags --oneline --decorate
+    log-tags = log --no-walk --tags --decorate
+    log-full = log --decorate --graph --all --pretty=fuller
+    d = diff
+    dc = diff --cached
+    aa = add .
+    g = grep
+    cl = clone
+    rmc = rm -r --cached
+    lrt = ls-remote --tags origin
+    # May not work on Windows - ucomment for Linux/Unix
+    # dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
