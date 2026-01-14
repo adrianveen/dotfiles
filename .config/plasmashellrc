@@ -3,8 +3,8 @@ iconViewIconSize=256
 
 [PlasmaTransientsConfig]
 PreloadWeight=0
-popupHeight=375
-popupWidth=525
+popupHeight=432
+popupWidth=432
 
 [PlasmaViews][Panel 100]
 alignment=132
@@ -236,11 +236,12 @@ panelVisibility=0
 thickness=70
 
 [PlasmaViews][Panel 1333]
+alignment=1
 floating=0
 panelLengthMode=1
 
 [PlasmaViews][Panel 1333][Defaults]
-thickness=36
+thickness=40
 
 [PlasmaViews][Panel 1366]
 floating=0
@@ -248,12 +249,49 @@ panelLengthMode=1
 panelOpacity=1
 
 [PlasmaViews][Panel 1366][Defaults]
-thickness=36
+thickness=40
 
 [PlasmaViews][Panel 1369]
 floating=1
 
 [PlasmaViews][Panel 1369][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 1393]
+floating=0
+panelLengthMode=1
+
+[PlasmaViews][Panel 1393][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 1412]
+floating=0
+panelLengthMode=1
+
+[PlasmaViews][Panel 1412][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 1431]
+floating=0
+panelLengthMode=1
+
+[PlasmaViews][Panel 1431][Defaults]
+thickness=50
+
+[PlasmaViews][Panel 1450]
+alignment=1
+floating=0
+panelLengthMode=1
+
+[PlasmaViews][Panel 1450][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 1471]
+alignment=2
+floating=0
+panelLengthMode=1
+
+[PlasmaViews][Panel 1471][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 148]
