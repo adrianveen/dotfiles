@@ -53,3 +53,6 @@ alias save-crash='journalctl -b -1 | grep -iE "mce|hardware|pcie|igb|error" > ~/
 alias ls='ls -la --color=auto'
 alias grep='grep --color=auto'
 eval "$(starship init bash)"
+
+# Dotfiles bare repo alias
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
