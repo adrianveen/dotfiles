@@ -1,22 +1,40 @@
 # dotfiles
-Collection of dotfiles
-## Setting up on a new machine
-To set up a new machine to use your version controlled config files, all you need to do is to clone the repository on your new machine telling git that it is a bare repository:
+
+Bare git repo for dotfiles management across Arch Linux and Windows.
+
+## Setup on a new machine
 ```bash
-git clone --separate-git-dir=$HOME/.dotfiles https://github.com/adrianveen/dotfiles.git ~
-```
-However, some programs create default config files, so this might fail if git finds an existing config file in your `$HOME`. In that case, a simple solution is to clone to a temporary directory, and then delete it once you are done:
-```bash
+# Clone the bare repo
 git clone --separate-git-dir=$HOME/.dotfiles https://github.com/adrianveen/dotfiles.git tmpdotfiles
+
+# Copy files (handles conflicts with existing configs)
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
-rm -r tmpdotfiles
+rm -rf tmpdotfiles
+
+# Set up alias and config
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles config --local status.showUntrackedFiles no
 ```
 
-## Power Shell Profile
-- Made with the help of claude
-<img width="867" height="523" alt="powershell-profile" src="https://github.com/user-attachments/assets/89a26675-d800-409a-8343-4e575095ea84" />
+## Usage
+```bash
+dotfiles status          # Check what's changed
+dotfiles add <file>      # Track a new file
+dotfiles commit -m "msg" # Commit changes
+dotfiles push            # Push to remote
+```
 
-- Only drive letter and immediate parent dir are showng along with cwd
-<img width="888" height="564" alt="truncated-path" src="https://github.com/user-attachments/assets/b873e747-732a-4699-b1e9-7d7e0de5d112" />
+## Contents
 
+### Linux (Arch/KDE)
+- `.bashrc` - Shell config
+- `.config/nvim/` - Neovim (LazyVim)
+- `.config/kitty/` - Kitty terminal
+- `.config/plasma-org.kde.plasma.desktop-appletsrc` - KDE panels & widgets (inc. Panel Colorizer)
+- `.config/kdeglobals` - KDE colors, fonts, icons
+- `.config/kwinrc` - KWin window manager
+- `.config/plasmarc` - Plasma theme
+- `.config/plasmashellrc` - Plasma shell settings
 
+### Windows
+- `windows/Microsoft.PowerShell_profile.ps1` - PowerShell prompt

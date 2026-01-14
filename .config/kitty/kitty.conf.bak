@@ -1,0 +1,7 @@
+# BEGIN_KITTY_THEME
+map ctrl+shift+x launch --location=vsplit --cwd=current
+map ctrl+shift+z launch --location=hsplit --cwd=current
+
+# Gruvbox Dark Hard
+include current-theme.conf
+# END_KITTY_THEME
