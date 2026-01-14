@@ -98,7 +98,7 @@ ForegroundVisited=255,102,102
 
 [General]
 AccentColor=94,157,46
-ColorSchemeHash=ea57537b02fa1830ed60eacba089f7d4e1ec937f
+ColorSchemeHash=76f36ee133cbebd6833b13407562c458ae055c02
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 XftHintStyle=hintslight
