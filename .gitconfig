@@ -11,6 +11,10 @@
 	editor = nvim
 [core]
 	ignorecase = false
+    pager = delta
+[delta]
+    line-numbers = true
+    side-by-side = true
 [init]
     defaultBranch = main
 [alias]

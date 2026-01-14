@@ -3,8 +3,8 @@ iconViewIconSize=256
 
 [PlasmaTransientsConfig]
 PreloadWeight=0
-popupHeight=432
-popupWidth=432
+popupHeight=375
+popupWidth=525
 
 [PlasmaViews][Panel 100]
 alignment=132

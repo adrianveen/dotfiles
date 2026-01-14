@@ -205,10 +205,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][cda7b01f-9eb4-4b62-8c0d-766d76e0a991][11c2d4ae-0746-427a-936e-f04c87a2c03f]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.448046875},{"layoutDirection":"vertical","tiles":[{"height":0.85},{"height":0.15000000000000002}],"width":0.551953125}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.35195312500000003},{"layoutDirection":"vertical","tiles":[{"height":0.85},{"height":0.15000000000000002}],"width":0.6480468749999999}]}
 
 [Tiling][cda7b01f-9eb4-4b62-8c0d-766d76e0a991][6cef4936-13d3-42db-a3dc-e9895cdb9b7c]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.6921875},{"layoutDirection":"vertical","tiles":[{"height":0.7069444444444437},{"height":0.2930555555555563}],"width":0.30781250000000004}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.650390625},{"layoutDirection":"vertical","tiles":[{"height":0.6243055555555556},{"height":0.37569444444444444}],"width":0.349609375}]}
 
 [Tiling][cda7b01f-9eb4-4b62-8c0d-766d76e0a991][e26762ad-4008-4a34-b3a1-8a1f9be9a580]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
