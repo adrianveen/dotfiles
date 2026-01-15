@@ -1,0 +1,14 @@
+[Style]
+DolphinSidebarOpacity=0
+MenuBarOpacity=0
+MenuOpacity=0
+TabBarOpacity=0
+TabDrawHighlight=true
+ToolBarOpacity=0
+TransparentDolphinView=true
+UnifiedTabBarKonsole=true
+
+[Windeco]
+DrawBorderOnMaximizedWindows=true
+DrawTitleBarSeparator=true
+TitleAlignment=AlignCenter
