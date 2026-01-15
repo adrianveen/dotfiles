@@ -11,12 +11,13 @@ EdgeBarrier=0
 [Effect-better-blur-dx]
 BlurDecorations=true
 BlurDocks=true
+BlurMatching=false
 BlurMenus=true
+BlurNonMatching=true
 BlurStrength=8
 Brightness=60
-EnableOpacityOverride=true
 NoiseStrength=0
-WindowClasses=orge.kde.dolphin
+WindowClasses=
 
 [Effect-blur]
 BlurStrength=6
