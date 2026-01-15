@@ -486,6 +486,22 @@ history=#302e2d,#e3c278
 [Containments][1471][General]
 AppletOrder=1473;1489;1490
 
+[Containments][1493]
+activityId=
+formfactor=3
+immutability=1
+lastScreen=0
+location=5
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][1493][Applets][1494]
+immutability=1
+plugin=org.kde.plasma.appmenu
+
+[Containments][1493][General]
+AppletOrder=1494
+
 [ScreenMapping]
 itemsOnDisabledScreens=0,6b7d8326-5cc8-45b6-9ef2-04a36a9873a9,1,desktop:/steam.desktop
 screenMapping=

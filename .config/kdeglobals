@@ -106,6 +106,7 @@ ForegroundVisited=115,115,158
 
 [General]
 AccentColor=233,199,116
+ColorScheme=DarklyTransparent
 ColorSchemeHash=afa3cf8015d5888d1ef850d8e7264050b6f75ada
 LastUsedCustomAccentColor=61,174,233
 TerminalApplication=kitty

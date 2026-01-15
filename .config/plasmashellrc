@@ -1,6 +1,9 @@
 [KFileDialog Settings]
 iconViewIconSize=256
 
+[PlasmaTransientsConfig]
+PreloadWeight=34
+
 [PlasmaViews][Panel 100]
 alignment=132
 floating=0
@@ -311,6 +314,14 @@ thickness=44
 maxLength=1478
 minLength=362
 offset=0
+
+[PlasmaViews][Panel 1493]
+alignment=2
+floating=1
+panelLengthMode=1
+
+[PlasmaViews][Panel 1493][Defaults]
+thickness=32
 
 [PlasmaViews][Panel 171]
 floating=1
