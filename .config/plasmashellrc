@@ -238,7 +238,7 @@ panelLengthMode=1
 [PlasmaViews][Panel 1333][Defaults]
 maxLength=494
 minLength=494
-thickness=40
+thickness=44
 
 [PlasmaViews][Panel 1333][Horizontal2560]
 maxLength=494
@@ -250,7 +250,7 @@ panelLengthMode=1
 panelOpacity=1
 
 [PlasmaViews][Panel 1366][Defaults]
-thickness=40
+thickness=44
 
 [PlasmaViews][Panel 1369]
 floating=1
@@ -293,7 +293,7 @@ floating=0
 panelLengthMode=1
 
 [PlasmaViews][Panel 1471][Defaults]
-thickness=40
+thickness=44
 
 [PlasmaViews][Panel 148]
 alignment=132

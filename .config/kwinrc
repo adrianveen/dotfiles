@@ -12,13 +12,14 @@ EdgeBarrier=0
 BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=5
+BlurStrength=8
+Brightness=60
 EnableOpacityOverride=true
 NoiseStrength=0
-WindowClasses=dolphin\nDolphin\nsystem settings\nSystem Settings
+WindowClasses=orge.kde.dolphin
 
 [Effect-blur]
-BlurStrength=4
+BlurStrength=6
 NoiseStrength=0
 
 [Effect-kwin4_effect_geometry_change]
@@ -35,7 +36,8 @@ Active=true
 NightTemperature=1400
 
 [Plugins]
-blurEnabled=true
+better_blur_dxEnabled=true
+blurEnabled=false
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 magiclampEnabled=true

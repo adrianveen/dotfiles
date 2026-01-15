@@ -91,7 +91,9 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorSchemeHash=68f7da041112b660ac4e6911cf4bf8a7b361feda
+ColorScheme=GruvboxTransparent
+ColorSchemeHash=1a0a3eb68557b7abf5a93c8188fe0b4239229a8c
+LastUsedCustomAccentColor=61,174,233
 TerminalApplication=kitty
 TerminalService=kitty.desktop
 XftHintStyle=hintslight
@@ -132,10 +134,10 @@ MaximumRemoteSize=0
 Theme=freedesktop
 
 [WM]
-activeBackground=39,39,39
+activeBackground=39,39,39,0
 activeBlend=235,219,178
 activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=235,219,178
-inactiveBackground=40,40,40
+inactiveBackground=40,40,40,0
 inactiveBlend=60,56,54
 inactiveForeground=204,190,155
