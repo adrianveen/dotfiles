@@ -1,7 +1,13 @@
 # BEGIN_KITTY_THEME
-map ctrl+shift+x launch --location=vsplit --cwd=current
-map ctrl+shift+z launch --location=hsplit --cwd=current
-
-# Gruvbox Dark Hard
+# Sundried
 include current-theme.conf
+
+# Set transparency (0.1 to 1.0)
+background_opacity 0.85
+
+# Set blur amount (1 is a good starting point)
+# Note: On macOS, this is a boolean (1 or 0). 
+# On Linux (KDE/Gnome), this requires a compositor that supports blur.
+background_blur 1
+dynamic_background_opacity yes
 # END_KITTY_THEME
