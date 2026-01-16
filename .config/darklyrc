@@ -1,11 +1,17 @@
+[Common]
+CornerRadius=10
+FancyMargins=false
+
 [Style]
+DisableDolphinUrlNavigatorBackground=false
 DolphinSidebarOpacity=0
+DolphinViewOpacity=0
 MenuBarOpacity=0
 MenuOpacity=0
 TabBarOpacity=0
 TabDrawHighlight=true
+ToolBarDrawItemSeparator=true
 ToolBarOpacity=0
-TransparentDolphinView=true
 UnifiedTabBarKonsole=true
 
 [Windeco]
