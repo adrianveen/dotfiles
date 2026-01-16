@@ -1,9 +1,6 @@
 [KFileDialog Settings]
 iconViewIconSize=206
 
-[PlasmaTransientsConfig]
-PreloadWeight=18
-
 [PlasmaViews][Panel 100]
 alignment=132
 floating=0
