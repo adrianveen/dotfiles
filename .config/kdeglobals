@@ -16,7 +16,7 @@ ColorAmount=0.4
 ColorEffect=3
 ContrastAmount=0.4
 ContrastEffect=0
-Enable=true
+Enable=false
 IntensityAmount=-0.2
 IntensityEffect=0
 
@@ -47,6 +47,16 @@ ForegroundNeutral=201,206,59
 ForegroundNormal=239,240,241
 ForegroundPositive=17,209,22
 ForegroundVisited=61,174,230
+
+[Colors:Header]
+BackgroundNormal=34,34,34,0
+DecorationFocus=233,199,116
+DecorationHover=233,199,116
+ForegroundActive=233,199,116
+ForegroundLink=233,199,116
+
+[Colors:Header][Inactive]
+BackgroundNormal=34,34,34,0
 
 [Colors:Selection]
 BackgroundAlternate=176,152,94
@@ -106,7 +116,7 @@ ForegroundVisited=115,115,158
 
 [General]
 AccentColor=233,199,116
-ColorSchemeHash=afa3cf8015d5888d1ef850d8e7264050b6f75ada
+ColorSchemeHash=3fad8438ebf142a191c069a1cd436b72a67cf1c7
 LastUsedCustomAccentColor=61,174,233
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -152,10 +162,10 @@ MaximumRemoteSize=0
 Theme=freedesktop
 
 [WM]
-activeBackground=34,34,34,0
+activeBackground=34,34,34
 activeBlend=255,255,255
 activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=204,204,204
-inactiveBackground=44,44,44,0
+inactiveBackground=44,44,44
 inactiveBlend=44,44,44
 inactiveForeground=144,144,144

@@ -27,9 +27,6 @@ NoiseStrength=0
 Duration=350
 
 [Effect-translucency]
-ComboboxPopups=62
-Dialogs=62
-Menus=62
 MoveResize=100
 
 [NightColor]
@@ -81,10 +78,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][cda7b01f-9eb4-4b62-8c0d-766d76e0a991][11c2d4ae-0746-427a-936e-f04c87a2c03f]
-tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.36992187499999996},{"width":0.6300781249999992}]}
 
 [Tiling][cda7b01f-9eb4-4b62-8c0d-766d76e0a991][6cef4936-13d3-42db-a3dc-e9895cdb9b7c]
-tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.4},{"width":0.6}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5006944444444444},{"height":0.49930555555555556}],"width":0.491015625},{"width":0.508984375}]}
 
 [Xwayland]
 Scale=1
