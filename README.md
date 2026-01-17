@@ -24,17 +24,33 @@ dotfiles commit -m "msg" # Commit changes
 dotfiles push            # Push to remote
 ```
 
+## Screenshots
+> *Current setup on Arch Linux*
+
+![Desktop Overview](.screenshots/Screenshot_20260116_212741.png)
+![Desktop Clean](.screenshots/Screenshot_20260116_212919.png)
+![Desktop Busy](.screenshots/Screenshot_20260116_213023.png)
+![Desktop Menu](.screenshots/Screenshot_20260116_213210.png)
+
 ## Contents
 
-### Linux (Arch/KDE)
-- `.bashrc` - Shell config
-- `.config/nvim/` - Neovim (LazyVim)
-- `.config/kitty/` - Kitty terminal
-- `.config/plasma-org.kde.plasma.desktop-appletsrc` - KDE panels & widgets (inc. Panel Colorizer)
-- `.config/kdeglobals` - KDE colors, fonts, icons
-- `.config/kwinrc` - KWin window manager
-- `.config/plasmarc` - Plasma theme
-- `.config/plasmashellrc` - Plasma shell settings
+### Linux (Arch/KDE/Hyprland)
+**Window Management & Desktop**
+- `.config/hypr/` - Hyprland configuration (**Note: Not yet ready for daily use**)
+- `.config/kwinrc`, `.config/kglobalshortcutsrc` - KDE KWin & Shortcuts
+- `.config/plasma*`, `.config/kdeglobals` - KDE Plasma panels, theme, and colors
+- `.config/gtk-*/` - GTK 3 & 4 settings
+- `.config/darklyrc` - Darkly theme settings
+
+**Shell & Terminal**
+- `.bashrc` - Bash configuration
+- `.config/starship.toml` - Starship prompt configuration
+- `.config/kitty/` - Kitty terminal (themes and config)
+- `.config/fastfetch/` - Fastfetch system information layout
+
+**Editors & Development**
+- `.config/nvim/` - Neovim configuration (LazyVim based)
+- `.gitconfig` - Global Git configuration
 
 ### Windows
-- `windows/Microsoft.PowerShell_profile.ps1` - PowerShell prompt
+- `windows/Microsoft.PowerShell_profile.ps1` - PowerShell prompt profile
