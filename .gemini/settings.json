@@ -1,0 +1,57 @@
+{
+    "security": {
+        "auth": {
+            "selectedType": "oauth-personal"
+        }
+    },
+    "general": {
+        "previewFeatures": true,
+        "vimMode": true,
+        "sessionRetention": {
+            "enabled": true
+        }
+    },
+    "output": {
+        "format": "text"
+    },
+    "ui": {
+        "showStatusInTitle": true,
+        "footer": {
+            "hideContextPercentage": false
+        },
+        "showCitations": true,
+        "showModelInfoInChat": true,
+        "useFullWidth": true,
+        "showMemoryUsage": true,
+        "theme": "Gruvbox",
+        "customThemes": {
+            "Gruvbox": {
+                "name": "Gruvbox",
+                "type": "custom",
+                "Background": "#282828",
+                "Foreground": "#ebdbb2",
+                "LightBlue": "#83a598",
+                "AccentBlue": "#458588",
+                "AccentPurple": "#d3869b",
+                "AccentCyan": "#8ec07c",
+                "AccentGreen": "#b8bb26",
+                "AccentYellow": "#fabd2f",
+                "AccentRed": "#fb4934",
+                "Comment": "#928374",
+                "Gray": "#a89984",
+                "DiffAdded": "#2d3a20",
+                "DiffRemoved": "#3c2020",
+                "GradientColors": [
+                    "#458588",
+                    "#b16286",
+                    "#d65d0e"
+                ]
+            }
+        }
+    },
+    "tools": {
+        "shell": {
+            "showColor": true
+        }
+    }
+}
