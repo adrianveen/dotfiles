@@ -2,9 +2,6 @@
 detailViewIconSize=38
 iconViewIconSize=256
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-
 [PlasmaViews][Panel 100]
 alignment=132
 floating=0

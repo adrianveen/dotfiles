@@ -9,9 +9,14 @@ Rows=1
 EdgeBarrier=0
 
 [Effect-better-blur-dx]
+BlurMatching=false
+BlurNonMatching=true
 BlurStrength=11
 Brightness=50
+EnableOpacityOverride=true
 NoiseStrength=0
+OverrideOpacityLevel=100
+WindowClasses=plasmashell org.kde.plasmashell
 
 [Effect-blur]
 BlurStrength=6

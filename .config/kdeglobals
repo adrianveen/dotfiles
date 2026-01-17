@@ -102,7 +102,7 @@ ForegroundVisited=115,115,158
 
 [Colors:Window]
 BackgroundAlternate=77,77,77
-BackgroundNormal=34,34,34
+BackgroundNormal=34,34,34,10
 DecorationFocus=233,199,116
 DecorationHover=233,199,116
 ForegroundActive=233,199,116
@@ -116,7 +116,7 @@ ForegroundVisited=115,115,158
 
 [General]
 AccentColor=233,199,116
-ColorSchemeHash=3fad8438ebf142a191c069a1cd436b72a67cf1c7
+ColorSchemeHash=0fafc107ce8f5eb74d427140ad3c9898647eec5a
 LastUsedCustomAccentColor=61,174,233
 TerminalApplication=kitty
 TerminalService=kitty.desktop
