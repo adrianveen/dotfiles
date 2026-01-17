@@ -9,15 +9,9 @@ Rows=1
 EdgeBarrier=0
 
 [Effect-better-blur-dx]
-BlurDecorations=true
-BlurDocks=true
-BlurMatching=false
-BlurMenus=true
-BlurNonMatching=true
-BlurStrength=8
-Brightness=60
+BlurStrength=11
+Brightness=50
 NoiseStrength=0
-WindowClasses=
 
 [Effect-blur]
 BlurStrength=6

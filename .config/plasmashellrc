@@ -229,7 +229,7 @@ floating=0
 floatingApplets=0
 panelLengthMode=1
 panelOpacity=2
-panelVisibility=0
+panelVisibility=2
 
 [PlasmaViews][Panel 1310][Defaults]
 thickness=70
