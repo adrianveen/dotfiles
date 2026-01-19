@@ -5,12 +5,12 @@
         "source": "BlackMesa",
         "height": 20,
         "color": {
-            "1": "red"
+            "1": "#5F674C"
         }
     },
     "display": {
         "color": {
-            "keys": "red"
+            "keys": "#5F674C"
         }
     },
     "modules": [
