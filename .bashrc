@@ -2,15 +2,11 @@
 # ~/.bashrc
 #
 # fastfetch on new window
-#if [ -f /usr/bin/fastfetch ]; then
-#  fastfetch
-#fi
 
 # Use bash-completion, if available, and avoid double-sourcing
-[[ $PS1 &&
-    ! ${BASH_COMPLETION_VERSINFO:-} &&
-    -f /usr/share/bash-completion/bash_completion ]] &&
+if [[ $PS1 && ! ${BASH_COMPLETION_VERSINFO:-} && -f /usr/share/bash-completion/bash_completion ]]; then
     . /usr/share/bash-completion/bash_completion
+fi
 
 # Expand the history size
 export HISTFILESIZE=10000
@@ -52,6 +48,7 @@ calc() {
 alias save-crash='journalctl -b -1 | grep -iE "mce|hardware|pcie|igb|error" > ~/Documents/troubleshooting/crash-$(date +%Y%m%d-%H%M).log && echo "Saved to ~/Documents/troubleshooting"'
 alias ls='ls -la --color=auto'
 alias grep='grep --color=auto'
+alias oc='opencode'
 eval "$(starship init bash)"
 
 # Dotfiles bare repo alias

@@ -42,6 +42,7 @@
     cl = clone
     rmc = rm -r --cached
     lrt = ls-remote --tags origin
+	l-dates = log --all --graph --pretty=format:'%C(auto)%h %C(green)%cd %C(auto)%d'
     # May not work on Windows - ucomment for Linux/Unix
     # dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
