@@ -28,6 +28,9 @@ Duration=350
 [Effect-translucency]
 MoveResize=100
 
+[Input]
+TabletMode=off
+
 [NightColor]
 Active=true
 NightTemperature=1400

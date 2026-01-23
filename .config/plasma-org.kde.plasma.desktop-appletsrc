@@ -79,7 +79,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][1310][Applets][1313][Configuration][General]
-launchers=[44ddae73-8c39-4635-9bc0-090a836ed2c9\\,32dba09b-31c2-443d-98e2-c591c26eaa02\\,49077674-5074-44e1-a58f-91a082f1377e]\napplications:systemsettings.desktop,applications:org.kde.dolphin.desktop,[32dba09b-31c2-443d-98e2-c591c26eaa02]\napplications:gimp.desktop,applications:zen-browser.desktop,applications:kitty.desktop,[44ddae73-8c39-4635-9bc0-090a836ed2c9]\napplications:slack.desktop
+launchers=[44ddae73-8c39-4635-9bc0-090a836ed2c9\\,49077674-5074-44e1-a58f-91a082f1377e\\,32dba09b-31c2-443d-98e2-c591c26eaa02]\napplications:systemsettings.desktop,applications:org.kde.dolphin.desktop,[32dba09b-31c2-443d-98e2-c591c26eaa02]\napplications:gimp.desktop,applications:zen-browser.desktop,applications:kitty.desktop,[44ddae73-8c39-4635-9bc0-090a836ed2c9]\napplications:slack.desktop,[6b7d8326-5cc8-45b6-9ef2-04a36a9873a9]\napplications:steam.desktop,[6b7d8326-5cc8-45b6-9ef2-04a36a9873a9]\napplications:vesktop.desktop,[6b7d8326-5cc8-45b6-9ef2-04a36a9873a9]\napplications:faugus-launcher.desktop
 wheelEnabled=TaskOnly
 
 [Containments][1310][Applets][1365]
@@ -154,6 +154,9 @@ DialogWidth=810
 boldFont=false
 customText=true
 filterByScreen=true
+iconSize=25
+lengthPolicy=Maximum
+maximumLength=250
 placeHolderIcon=distributor-logo-archlinux
 textDefault=Desktop
 useActivityIcon=false
@@ -327,8 +330,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][1366][Applets][1368][Configuration]
 PreloadWeight=65
-popupHeight=586
-popupWidth=660
+popupHeight=706
+popupWidth=780
 
 [Containments][1366][Applets][1368][Configuration][Appearance]
 autoFontAndSize=false
@@ -376,6 +379,9 @@ PreloadWeight=0
 [Containments][1471][Applets][1473][Applets][1474]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][1471][Applets][1473][Applets][1474][Configuration]
+PreloadWeight=60
 
 [Containments][1471][Applets][1473][Applets][1475][Configuration]
 PreloadWeight=42
@@ -428,6 +434,9 @@ plugin=org.kde.plasma.keyboardindicator
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][1471][Applets][1473][Applets][1485][Configuration]
+PreloadWeight=55
+
 [Containments][1471][Applets][1473][Applets][1486]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -447,7 +456,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][1471][Applets][1473][Applets][1488][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][1471][Applets][1473][ConfigDialog]
 DialogHeight=630
@@ -506,13 +515,25 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][1471][Applets][1494][Configuration]
-PreloadWeight=70
-popupHeight=375
-popupWidth=525
+PreloadWeight=95
+popupHeight=390
+popupWidth=540
+
+[Containments][1471][Applets][1496]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][1471][Applets][1496][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][1471][Applets][1496][Configuration][General]
+displayedText=Number
+showWindowOutlines=false
 
 [Containments][1471][General]
-AppletOrder=1494;1473;1489;1490;1491;1493
+AppletOrder=1496;1494;1473;1489;1490;1491;1493
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,6b7d8326-5cc8-45b6-9ef2-04a36a9873a9,1,desktop:/steam.desktop
-screenMapping=
+itemsOnDisabledScreens=
+screenMapping=desktop:/steam.desktop,0,6b7d8326-5cc8-45b6-9ef2-04a36a9873a9
